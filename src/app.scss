@@ -1,4 +1,12 @@
+// adding snap scroll effect
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
 // each section occupies whole screen
 section {
   height: 100vh;
+  // the content after scrolling is centered
+  scroll-snap-align: center;
 }
