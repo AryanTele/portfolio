@@ -1,3 +1,16 @@
+// default style
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
 // adding snap scroll effect
 html {
   scroll-snap-type: y mandatory;
@@ -9,4 +22,10 @@ section {
   height: 100vh;
   // the content after scrolling is centered
   scroll-snap-align: center;
+}
+
+// removing anchor style
+a {
+  text-decoration: none;
+  color: inherit;
 }
